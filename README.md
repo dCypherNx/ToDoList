@@ -2,7 +2,7 @@
 
 Este README fornece uma visão geral do teste solicitado, incluindo os requisitos do teste, os itens relevantes abordados no código e uma breve descrição de como cada um deles foi implementado.
 
-Descrição do Teste
+Descrição do Teste:
 O teste consiste no desenvolvimento de uma aplicação composta por um frontend Angular, uma WebAPI e um Service Worker em C#, utilizando .NET Core 6. Os métodos de leitura de dados da WebAPI se comunicam diretamente com um banco de dados SQL, enquanto os métodos de criação, atualização e exclusão se comunicam com o Service Worker via RabbitMQ.
 
 Itens Relevantes
