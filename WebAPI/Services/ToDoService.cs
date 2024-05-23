@@ -23,7 +23,6 @@ namespace WebAPI.Services
         {
             if (obj == null)
             {
-                // Implementar cobertura de teste da linha abaixo
                 throw new ArgumentNullException(nameof(obj), "ToDo data cannot be null");
             }
 
@@ -63,14 +62,12 @@ namespace WebAPI.Services
 
             if (obj == null)
             {
-                // Implementar cobertura de teste da linha abaixo
                 throw new ArgumentException("Invalid ToDo object");
             }
 
             var toDo = _toDoRepository.GetById(id);
             if (toDo == null)
             {
-                // Implementar cobertura de teste da linha abaixo
                 throw new InvalidOperationException("ToDo not found");
             }
 
@@ -91,7 +88,6 @@ namespace WebAPI.Services
             var toDo = _toDoRepository.GetById(id);
             if (toDo == null)
             {
-                // Implementar cobertura de teste da linha abaixo
                 throw new InvalidOperationException("ToDo not found");
             }
 
