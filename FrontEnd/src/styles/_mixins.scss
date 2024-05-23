@@ -1,0 +1,10 @@
+/* src/styles/_mixins.scss */
+
+@mixin font-family($font-stack) {
+    font-family: $font-stack;
+  }
+  
+  @mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  

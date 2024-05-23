@@ -1,0 +1,35 @@
+/* app.component.scss */
+@import '../styles/variables';
+@import '../styles/mixins';
+
+// Estilos globais
+body {
+  font-family: $font-stack;
+  background-color: $light-color;;
+  color: $dark-color;
+  margin: 0;
+  padding-top: 65px; // Ajuste para a barra de navegação fixa
+}
+
+// Estilos da barra de navegação
+nav {
+  .navbar-brand {
+    color: $primary-color;
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+  }
+
+  .nav-link {
+    &.active {
+      color: $secondary-color;
+      background-color: lighten($secondary-color, 40%);
+    }
+  }
+}
+
+// Estilos do container principal
+.container {
+  padding: 15px;
+}
+

@@ -1,0 +1,13 @@
+/* src/styles/styles.scss */
+@import 'variables';
+@import 'mixins';
+
+body {
+  @include font-family($font-stack);
+  background-color: $light-color;
+  color: $dark-color;
+  margin: 0;
+  padding-top: 65px; // Ajuste para a barra de navegação fixa
+}
+
+// Estilos adicionais globais podem ser adicionados aqui
